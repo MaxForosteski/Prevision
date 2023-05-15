@@ -1,0 +1,12 @@
+.card{
+    flex: 0 0 200px; /* Largura fixa dos cards */
+    height: 200px;
+    margin-right: 12px; /* Espaçamento entre os cards */
+    background-color: #f0f0f0;
+}
+
+.container-scroll{
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+}
