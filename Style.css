@@ -1,12 +1,30 @@
 .card{
-    flex: 0 0 200px; /* Largura fixa dos cards */
-    height: 200px;
+    flex: 0 0 174px; /* Largura fixa dos cards */
+    margin:30px;
+    height: 120px;
     margin-right: 12px; /* Espaçamento entre os cards */
     background-color: #f0f0f0;
+    background-image: linear-gradient(rgb(0,100,255,0.4),rgb(0,100,255,0.8));
+    
 }
-
+.content{
+    white-space: nowrap;
+    width: fit-content;
+}
 .container-scroll{
     display: flex;
     overflow-x: auto;
     width: 100%;
+    white-space: nowrap;
+}
+.filtro-fundo{
+    background-color: rgba(0,0,0,0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    background-image: url(ceu\ normal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
